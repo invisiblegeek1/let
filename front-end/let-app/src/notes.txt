@@ -1,0 +1,13 @@
+//------------------------------------------------------
+//  color palette link
+//------------------------------------------------------
+
+https://colorhunt.co/palette/193498113cfc1597e569dadb
+
+primary-#193498
+accent-#113CFC
+tiny-#1597E5
+overlay-#69DADB
+green-#1CAC5C
+gray #6c757d
+

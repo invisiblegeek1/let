@@ -1,0 +1,49 @@
+.Sitemap-container{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    background-color: #232323;
+    align-items: center;
+    justify-content: space-around;
+    flex-flow: row;
+}
+.Sitemap-navigation-link-container{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    height: 300px;
+}
+.Sitemap-navigation-link-container ul,.Sitemap-address-text{
+    font-size: 20px;
+    color: #6c757d;
+    width: 300px;
+    float: left;
+    text-align: left;
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+
+}
+.Sitemap-navigation-link-container li{
+    cursor: pointer;
+    margin: 3px;
+}
+.Sitemap-contact-container{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    height: 300px;
+
+}
+
+.Sitemap-address-icon{
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+}
+.Sitemap-address-container{
+    display: flex;
+    margin-bottom: 25px;
+    flex-flow: row;
+    
+}

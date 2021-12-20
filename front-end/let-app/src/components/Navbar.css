@@ -1,0 +1,129 @@
+.Navbar-outter-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 110px;
+    
+
+}
+.Navbar-inner-container{
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 110px;
+    margin: 0;
+    padding: 0;
+    background-color:#1cac5c;
+    
+
+
+}
+.Navbar-wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    border-bottom:2px solid #1CAC5C;
+    background-color: #fff;
+    
+
+
+}
+
+.Navbar-contact-wrapper{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    width: auto;
+    height: 50px;
+    margin: 0;
+    padding: 5px;
+    color: #fff;
+    background-color: #1CAC5C;
+    align-items: center;
+    
+   
+    
+
+}
+
+.Navbar-items-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+
+}
+.Navbar-logo-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 500px;
+    height: 50px;
+    margin: 5px;
+    padding: 0;
+    align-items: center;
+
+}
+.Navbar-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 70px;
+    height: 50px;
+    margin: 5px;
+    padding: 0;
+    color: #1CAC5C;
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.Navbar-items{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 700px;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    color: #1CAC5C;
+    font-size:18px ;
+
+}
+.Navbar-item{
+    list-style: none;
+    cursor: pointer;
+}
+.contact-icon{
+    display: block;
+    height: 25px;
+    width: 25px;
+    color: #fff;
+    
+
+}
+.contact-element p{
+    font-size: 20px;
+    color: #fff;
+    margin-left: 5px;
+}
+.contact-element{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+
+}
