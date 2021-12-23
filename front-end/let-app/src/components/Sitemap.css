@@ -1,7 +1,7 @@
 .Sitemap-wrapper{
     display: flex;
     width: 100%;
-    height: 500px;
+    height: 550px;
     background-color: #232323;
     align-items: center;
     justify-content: space-around;
@@ -57,4 +57,46 @@
     margin-bottom: 25px;
     flex-flow: row;
     
+}
+
+@media screen and (max-width:640px){
+    .Sitemap-wrapper{
+        height: 900px;
+        flex-flow: column;
+        justify-content: center;
+        padding: 0;
+
+    }
+    .Sitemap-navigation-link-container ul,.Sitemap-address-text{
+        font-size: 16px;
+        height: 60px;
+    }
+    .Sitemap-navigation-link-container h2{
+        margin: 0;
+
+    }
+    .Sitemap-navigation-link-container{
+        display: flex;
+        height: 200px;
+    }
+    .Sitemap-copy{
+        height: 70px;
+    }
+    .Sitemap-address-text{
+        height: 30px;
+    }
+    .Sitemap-contact-container h1{
+        margin: 0;
+    }
+    .Sitemap-contact-container{
+        height: 200px;
+    }
+    .Sitemap-container{
+        height: 850px;
+        justify-content: center;
+        flex-direction: column;
+        display: flex;
+        padding: 0;
+    }
+
 }

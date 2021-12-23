@@ -7,22 +7,22 @@ import "./CarouselPage.css";
 export default function CarouselPage() {
   const imgList = [
     {
-      img: "/images/caroselImages/close-up-hand-taking-notes.jpg",
+      img: "/images/caroselImages/close-up-hand-taking-notes.webp",
       // img:medical,
       text: "Welcome to Leelavathi Educational Trust",
     },
     {
-      img: "/images/caroselImages/doctor-with-stethoscope-hands-hospital-background.jpg",
+      img: "/images/caroselImages/doctor-with-stethoscope-hands-hospital-background.webp",
       // img:medical,
       text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     },
     {
-      img: "/images/caroselImages/close-up-hand-taking-notes.jpg",
+      img: "/images/caroselImages/close-up-hand-taking-notes.webp",
       // img:medical,
       text: "Welcome to Leelavathi Educational Trust",
     },
     {
-      img: "/images/caroselImages/doctor-with-stethoscope-hands-hospital-background.jpg",
+      img: "/images/caroselImages/doctor-with-stethoscope-hands-hospital-background.webp",
       // img:medical,
       text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     },

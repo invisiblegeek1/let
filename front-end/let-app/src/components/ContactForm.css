@@ -61,4 +61,24 @@
     cursor: pointer;
 
 }
+@media screen and (max-width:640px) {
+
+    .Contact-form-container{
+        height: 350px;
+        width: 300px;
+        margin: 10px;
+
+    }
+    .Contact-form-input,.Contact-form-btn{
+        width: 260px;
+        height: 30px;
+    }
+    .Contact-form-message-input{
+        width: 260px;
+        height: 100px;
+
+    }
+
+    
+}
 

@@ -98,3 +98,49 @@
     font-weight: 500;
 }
 
+@media screen and (max-width:640px) {
+
+    .Home-section-title{
+        font-size: 40px;
+        text-align: center;
+    }
+    .Service-card-container{
+        width: 250px;
+        height: 100px;
+        
+
+    }
+    .Service-icon-containetr{
+        width:100px ;
+        height: 95px;
+
+    }
+    .Service-icon{
+        width: 50px;
+        height: 50px;
+    }
+    .Service-text{
+        font-size: 14px;
+        margin: 0 0 5px 0;
+    }
+    .Service-title{
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+    .Home-section-wrapper{
+        width: 100%;
+        flex-direction: column;
+        height: 800px;
+    }
+    .contact-strip{
+        font-size: 20px;
+        text-align: center;
+        height: 200px;
+        overflow: none;
+    }
+    .Home-section-Two{
+        height: 900px;
+    }
+
+    
+}

@@ -51,3 +51,33 @@
     
     
 }
+
+@media screen and (max-width:640px) {
+
+    .Carosel-content{
+        width: 120px;
+        height: 150px;
+
+    }
+    .Carosel-text{
+        font-size: 16px;
+    }
+    .Carosel-read-more-btn{
+        width: 80px;
+        background-color: #1cac5c;
+        color: #fff;
+        font-size: 10px;
+        height: 30px;
+    }
+    .Carosel-img-container{
+        width: 400px;
+        height: 500px;
+        position: absolute;
+        top: 40%;
+        
+        
+
+    }
+    
+    
+}
