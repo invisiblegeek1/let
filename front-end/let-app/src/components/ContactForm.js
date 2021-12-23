@@ -3,7 +3,7 @@ import "./ContactForm.css";
 import Axios from 'axios';
 
 export default function ContactForm() {
-  const form = document.getElementById('User-contact-form')
+  const form = document.getElementById('User-contact-form');
   // const script ="https://script.google.com/macros/s/AKfycbwnXMso02c9EwR92HRInAS098uZqNx_CQK5x--1rN85vLx1ynTuBKS33nBFnF1c00uFrg/exec";
   // form.addEventListener('submit', e => {
   //   e.preventDefault()
@@ -25,7 +25,7 @@ export default function ContactForm() {
     Axios({
       method:'POST',
       url:script,
-      data:new FormData(form)
+      data:new FormData(document.getElementById('User-contact-form'))
       
     }).then((res) => {
       console.log(res);
@@ -70,7 +70,7 @@ export default function ContactForm() {
           required
         />
 
-        <button className="Contact-form-btn" type="submit" onClick={e=>handleSubmit(e)}>
+        <button className="Contact-form-btn" type="button" onClick={e=>handleSubmit(e)}>
           Send
         </button>
       </form>
