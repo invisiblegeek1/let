@@ -3,7 +3,7 @@ import "./ContactForm.css";
 import Axios from 'axios';
 
 export default function ContactForm() {
-  const form = document.getElementById('User-contact-form');
+  //const form = document.getElementById('User-contact-form');
   // const script ="https://script.google.com/macros/s/AKfycbwnXMso02c9EwR92HRInAS098uZqNx_CQK5x--1rN85vLx1ynTuBKS33nBFnF1c00uFrg/exec";
   // form.addEventListener('submit', e => {
   //   e.preventDefault()
