@@ -1,11 +1,22 @@
-.Sitemap-container{
+.Sitemap-wrapper{
     display: flex;
     width: 100%;
-    height: 400px;
+    height: 500px;
     background-color: #232323;
     align-items: center;
     justify-content: space-around;
     flex-flow: row;
+}
+.Sitemap-copy{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: #141414;
+    color: #6c757d;
+    align-items: center;
+    justify-content: space-around;
+    flex-flow: row;
+
 }
 .Sitemap-navigation-link-container{
     display: flex;
