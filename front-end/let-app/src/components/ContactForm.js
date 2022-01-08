@@ -1,36 +1,26 @@
 import React from "react";
 import "./ContactForm.css";
-import Axios from 'axios';
+import Axios from "axios";
 
 export default function ContactForm() {
-  //const form = document.getElementById('User-contact-form');
-  // const script ="https://script.google.com/macros/s/AKfycbwnXMso02c9EwR92HRInAS098uZqNx_CQK5x--1rN85vLx1ynTuBKS33nBFnF1c00uFrg/exec";
-  // form.addEventListener('submit', e => {
-  //   e.preventDefault()
-  //   fetch(script, { method: 'POST', body: new FormData(form)})
-  //     .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
-  //     .catch(error => console.error('Error!', error.message))})
-
   function handleSubmit(e) {
-    e.preventDefault()
-  //   console.log(e);
+    e.preventDefault();
 
-    
-  //   // const myHeaders = new Headers({
-  //   //   ''
-  //   // });
-  //   const data=new FormData(form)
-  const script ="https://script.google.com/macros/s/AKfycbzPUOQ4WkwPqzvpLxCyoXeOTqH8MozJYV2aJjnSBxfHnr1BJcaOXWEWtbhBvbQUFZXGQg/exec";
+    const script =
+      "https://script.google.com/macros/s/AKfycbzMJ65IxK9K9--3g3AtVRqAJAYg1GmiaI_BN-4NIsTkZLTs3boc6BMhVvJzbmEmmGUk/exec";
 
     Axios({
-      method:'POST',
-      url:script,
-      data:new FormData(document.getElementById('User-contact-form'))
-      
-    }).then((res) => {
-      console.log(res);
-      alert("Success!");
-    }).catch((err)=>{console.log(err);})
+      method: "POST",
+      url: script,
+      data: new FormData(document.getElementById("User-contact-form")),
+    })
+      .then((res) => {
+        console.log(res);
+        alert("Success!");
+      })
+      .catch((err) => {
+        console.log(err);
+      });
   }
 
   return (
@@ -38,8 +28,7 @@ export default function ContactForm() {
       <form
         id="User-contact-form"
         className="Contact-form"
-        
-  
+        onSubmit={(e) => handleSubmit(e)}
       >
         <input
           name="Name"
@@ -70,7 +59,7 @@ export default function ContactForm() {
           required
         />
 
-        <button className="Contact-form-btn" type="button" onClick={e=>handleSubmit(e)}>
+        <button className="Contact-form-btn" type="submit">
           Send
         </button>
       </form>

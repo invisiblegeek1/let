@@ -37,7 +37,7 @@ export default function CarouselPage() {
       autoPlay={true}
       infiniteLoop={true}
     >
-      {imgList.map((item,index) => {
+      {imgList.map((item, index) => {
         return (
           <div className="Carosel-img-container" key={index}>
             <img src={item.img} alt="" className="carosel-img" />
