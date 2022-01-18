@@ -7,22 +7,22 @@ import "./CarouselPage.css";
 export default function CarouselPage() {
   const imgList = [
     {
-      img: "/images/caroselImages/close-up-hand-taking-notes.webp",
+      img: "https://firebasestorage.googleapis.com/v0/b/leelavathieducationaltrust.appspot.com/o/carousel%20images%2Fclose-up-hand-taking-notes.webp?alt=media&token=2c0dbc77-c3ae-46dd-9aff-22005c14d2e0",
       // img:medical,
       text: "Welcome to Leelavathi Educational Trust",
     },
     {
-      img: "/images/caroselImages/doctor-with-stethoscope-hands-hospital-background.webp",
+      img: "https://firebasestorage.googleapis.com/v0/b/leelavathieducationaltrust.appspot.com/o/carousel%20images%2Fdoctor-with-stethoscope-hands-hospital-background.webp?alt=media&token=21598627-0f33-46de-aaa1-b529776951ec",
       // img:medical,
       text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     },
     {
-      img: "/images/caroselImages/close-up-hand-taking-notes.webp",
+      img: "https://firebasestorage.googleapis.com/v0/b/leelavathieducationaltrust.appspot.com/o/carousel%20images%2Fclose-up-hand-taking-notes.webp?alt=media&token=2c0dbc77-c3ae-46dd-9aff-22005c14d2e0",
       // img:medical,
       text: "Welcome to Leelavathi Educational Trust",
     },
     {
-      img: "/images/caroselImages/doctor-with-stethoscope-hands-hospital-background.webp",
+      img: "https://firebasestorage.googleapis.com/v0/b/leelavathieducationaltrust.appspot.com/o/carousel%20images%2Fdoctor-with-stethoscope-hands-hospital-background.webp?alt=media&token=21598627-0f33-46de-aaa1-b529776951ec",
       // img:medical,
       text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     },

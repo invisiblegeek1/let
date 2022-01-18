@@ -29,6 +29,11 @@ export function HomeSectionTwo() {
       title: "Dental",
       text: "Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text",
     },
+    {
+      icon: ay,
+      title: "Others",
+      text: "Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text",
+    },
   ];
   const ServiceList2 = [
     {
@@ -48,13 +53,9 @@ export function HomeSectionTwo() {
 
       <div className="Home-section-wrapper">
         <div className="Service-wrapper-one">
-          {ServiceList1.map((item,index) => {
-            return <ServiceCard key={index} content={item}></ServiceCard>;
-          })}
-        </div>
-        <div className="Service-wrapper-two">
-          {ServiceList2.map((item,index) => {
-            return <ServiceCard key={index} content={item}></ServiceCard>;
+          {ServiceList1.map((item, index) => {
+            // return <ServiceCard key={index} content={item}></ServiceCard>;
+            return <ServiceCard  key={index} content={item} />;
           })}
         </div>
       </div>
@@ -68,14 +69,17 @@ export function HomeSectionTwo() {
 export function ServiceCard(props) {
   return (
     <div className="Service-card-container">
-      <div className="Service-icon-containetr">
-        <img className="Service-icon" src={props.content.icon} alt=""></img>
-      </div>
-      <div className="Service-content-container">
-        <p className="Service-title">{props.content.title}</p>
+      <div className="Service-card-hexagon">
+        <div className="Service-card-shape">
+          <img className="Service-icon" src={props.content.icon} alt=""></img>
+          <p className="Service-title">{props.content.title}</p>
+          <p className="Service-text">{props.content.text}</p>
 
-        <p className="Service-text">{props.content.text}</p>
+        </div>
       </div>
+      
+
+      
     </div>
   );
 }

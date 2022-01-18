@@ -40,7 +40,7 @@ export default function Sitemap() {
         <ContactForm></ContactForm>
       </div>
       <div className="Sitemap-copy">
-        <h3>Copyright &copy; 2021 All rights reserved </h3>
+        <h4>Copyright &copy; 2021 All rights  to Leelavathieducational Trust</h4>
       </div>
     </div>
   );

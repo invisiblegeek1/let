@@ -45,11 +45,20 @@
     height: 80%;
     object-fit: cover;
     opacity: 0.5;
-
     
 
     
+
     
+    
+}
+.carosel-img{
+    display: block;
+    width: 800px;
+    height: 80%;
+    object-fit: cover;
+    opacity: 0.5;
+
 }
 
 @media screen and (max-width:640px) {
