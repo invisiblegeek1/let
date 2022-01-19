@@ -9,7 +9,7 @@
 }
 .Sitemap-copy{
     display: flex;
-    width: 100%;
+    width: auto;
     height: 100px;
     background-color: #141414;
     color: #6c757d;
@@ -80,7 +80,11 @@
         height: 200px;
     }
     .Sitemap-copy{
+        
         height: 70px;
+        text-align: center;
+        font-size: 14px;
+        
     }
     .Sitemap-address-text{
         height: 30px;

@@ -4,6 +4,7 @@ import logo from "../assets/images/logo-leelavathi-education-trust.jpg";
 import wa from "../assets/svg/whatsapp-brands.svg";
 import ma from "../assets/svg/envelope-regular.svg";
 import mo from "../assets/svg/mobile-alt-solid.svg";
+//import { Link } from "react-router-dom";
 export default function Navbar() {
   const [toggleState, setToggleState] = useState(false);
   return (
@@ -24,11 +25,12 @@ export default function Navbar() {
               <div className="Toggle-bar"></div>
             </div>
             <ul className="Navbar-items">
-              <li className="Navbar-item">HOME</li>
-              <li className="Navbar-item">SERVICE</li>
+              <li className="Navbar-item"><a href="/">HOME</a></li>
+              {/* <Link className="Navbar-item" to="#HomeId">SERVICE</Link> */}
+              <li className="Navbar-item"><a href="#HomeId">SERVICE</a></li>
               <li className="Navbar-item">ABOUT</li>
               <li className="Navbar-item">COLLEGES</li>
-              <li className="Navbar-item">CONTACT</li>
+              <li className="Navbar-item"><a href="#SitemapId">CONTACT</a></li>
             </ul>
           </div>
         </div>
@@ -53,7 +55,7 @@ export default function Navbar() {
           <div className="contact-element">
             <img src={ma} alt="" className="contact-icon"></img>
             <a href="mailto:leelavathicareers@gmail.com">
-              <p>www.help@leelavathi.com</p>
+              <p>leelavathicareers@gmail.com</p>
             </a>
           </div>
         </div>
@@ -63,11 +65,11 @@ export default function Navbar() {
         style={{ display: toggleState === true ? "flex" : "none" }}
       >
         <ul className="Navbar-toggle-items">
-          <li className="Navbar-toggle-item">HOME</li>
-          <li className="Navbar-toggle-item">SERVICE</li>
+          <li className="Navbar-toggle-item"><a href="/">HOME</a></li>
+          <li className="Navbar-toggle-item"><a href="#HomeId">SERVICE</a></li>
           <li className="Navbar-toggle-item">ABOUT</li>
           <li className="Navbar-toggle-item">COLLEGES</li>
-          <li className="Navbar-toggle-item">CONTACT</li>
+          <li className="Navbar-toggle-item"><a href="#SitemapId">CONTACT</a></li>
         </ul>
       </div>
     </div>

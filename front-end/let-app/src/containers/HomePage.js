@@ -48,7 +48,7 @@ export function HomeSectionTwo() {
     },
   ];
   return (
-    <div className="Home-section-Two">
+    <div className="Home-section-Two" id="HomeId">
       <h1 className="Home-section-title">The services we offer</h1>
 
       <div className="Home-section-wrapper">

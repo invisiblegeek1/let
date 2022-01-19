@@ -8,15 +8,15 @@ import ContactForm from "./ContactForm";
 
 export default function Sitemap() {
   return (
-    <div className="Sitemap-container">
+    <div className="Sitemap-container" id="SitemapId">
       <div className="Sitemap-wrapper">
         <div className="Sitemap-navigation-link-container">
           <h2>Navigation</h2>
           <ul>
-            <li>HOME</li>
-            <li>SERVICE</li>
+            <li><a href="/">HOME</a></li>
+            <li><a href="#HomeId">SERVICE</a></li>
             <li>ABOUT</li>
-            <li>CONTACT</li>
+            <li><a href="#SitemapId">CONTACT</a></li>
           </ul>
         </div>
         <div className="Sitemap-contact-container">

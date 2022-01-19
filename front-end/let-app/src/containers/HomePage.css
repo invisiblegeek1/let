@@ -100,6 +100,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background-color: #1cac5d11;
 }
 .Home-section-wrapper{
     display: flex;
