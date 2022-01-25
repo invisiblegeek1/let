@@ -4,6 +4,8 @@
     height: 100vh;
     justify-content: center;
     align-items: center;
+    padding: 0;
+    margin: 0;
     
 }
 .College-Page-Wrrapper{
@@ -11,12 +13,25 @@
     width: 100%;
     height: 700px;
     flex-direction: column;
+    margin: 0;
+    
+
+}
+.College-Page-Img-Contariner{
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
 
 }
 .College-top-Image{
     object-fit: cover;
-    width: 100%;
+    width: 89%;
     height: 500px;
+    
 }
 .College-data-list-container{
     width: 100%;
@@ -58,8 +73,10 @@
     align-items: center;
     justify-content: space-evenly;
     margin: 1px;
-    border: none ;
     background-color: #1cac5c;
+    border: 2px solid #1cac5c  ;
+    border-radius: 5px;
+
     color: #fff;
 
 }
@@ -89,6 +106,19 @@
     width: 400px;
     justify-content: center;
     text-align: center;
+}
+
+@media screen and (max-width:640px) {
+    .data-list-item{
+        height: 90px;
+    }
+    .data-list-item-header{
+        height: 90px;
+        font-size: 14px;
+    }
+
+    
+
 }
 
 

@@ -38,13 +38,7 @@ export default function CollegePage() {
       <div className="College-Page-Wrrapper">
         <div className="College-Page-Img-Contariner">
           <img className="College-top-Image" src={image} alt=""></img>
-          <button
-          onClick={() => {
-            console.log(data);
-          }}
-        >
-          print data
-        </button>
+          
         </div>
         <div className="College-data-container">
           <div className="College-data-list-container">
