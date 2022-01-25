@@ -2,7 +2,7 @@ import React from "react";
 import CaroselPage from "../components/CarouselPage";
 import me from "../assets/svg/medical-equipment.svg";
 import de from "../assets/svg/dental-care.svg";
-import en from "../assets/svg/engineering.svg";
+//import en from "../assets/svg/engineering.svg";
 import ay from "../assets/svg/home-remedies.svg";
 import "./HomePage.css";
 import Sitemap from "../components/Sitemap";
@@ -35,18 +35,18 @@ export function HomeSectionTwo() {
       text: "Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text",
     },
   ];
-  const ServiceList2 = [
-    {
-      icon: en,
-      title: "Engineering",
-      text: "Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text",
-    },
-    {
-      icon: ay,
-      title: "Ayush",
-      text: "Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text",
-    },
-  ];
+  // const ServiceList2 = [
+  //   {
+  //     icon: en,
+  //     title: "Engineering",
+  //     text: "Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text",
+  //   },
+  //   {
+  //     icon: ay,
+  //     title: "Ayush",
+  //     text: "Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text",
+  //   },
+  // ];
   return (
     <div className="Home-section-Two" id="HomeId">
       <h1 className="Home-section-title">The services we offer</h1>

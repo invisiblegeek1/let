@@ -2,13 +2,20 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import HomePage from "./containers/HomePage";
 import "./App.css";
-//import {BrowserRouter as Router,Route,Switch} from "react-router-dom";
+import CollegePage from "./components/CollegePage";
+import {BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 export default function App() {
   return (
     <div>
-      <Navbar></Navbar>
-      <HomePage></HomePage>
+      <Router>
+        <Navbar></Navbar>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+
+          <Route path="colleges/medical" element={<CollegePage />} />
+        </Routes>
+      </Router>
     </div>
   );
 }

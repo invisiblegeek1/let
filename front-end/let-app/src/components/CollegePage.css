@@ -1,0 +1,105 @@
+.College-Page-Container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    
+}
+.College-Page-Wrrapper{
+    display: flex;
+    width: 100%;
+    height: 700px;
+    flex-direction: column;
+
+}
+.College-top-Image{
+    object-fit: cover;
+    width: 100%;
+    height: 500px;
+}
+.College-data-list-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.College-data-list{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.College-data-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.data-list-item{
+    display: flex;
+    width: 90%;
+    height: 70px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 1px;
+    border: 2px solid #1cac5c  ;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.data-list-item-header{
+    display: flex;
+    width: 90%;
+    height: 70px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 1px;
+    border: none ;
+    background-color: #1cac5c;
+    color: #fff;
+
+}
+.item_no{
+    display: flex;
+    width: 100px;
+    justify-content: center;
+}
+.item_seats{
+    display: flex;
+    width: 100px;
+    justify-content: center;
+    text-align: center;
+}
+.item_course{
+    display: flex;
+    width: 200px;
+    justify-content: center;
+}
+.item_management{
+    display: flex;
+    width: 200px;
+    justify-content: center;
+}
+.item_college{
+    display: flex;
+    width: 400px;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+/* SNo: 5
+annual_intake_seats: 100
+courese_name: "MBBS"
+date of LOP: "N/A"
+management_of_college: "Govt."
+name_and_address_of_medical_college: "Chengalpattu Medical College, Chengalpattu"
+recognation of MCI: "Recognized  for 50 seats. Recognized for increase of seats from 50 to 100. Recognized for increase of seats from 50 to 100 when degree granted on or after 2016-2017. Permitted for admission of 100 seats for 2021-22."
+state: "Tamil Nadu"
+university_name: "The Tamilnadu Dr. MGR Medical University,Chennai"
+year_of_inspection: 1965 */

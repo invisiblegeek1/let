@@ -1,7 +1,7 @@
 .Contact-form-container{
     display: flex;
-    height: 470px;
-    width: 400px;
+    /* height: 470px;
+    width: 400px; */
     flex-direction: column;
     background-color: #fff;
     align-items: center;

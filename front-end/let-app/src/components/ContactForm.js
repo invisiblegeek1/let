@@ -2,7 +2,7 @@ import React from "react";
 import "./ContactForm.css";
 import Axios from "axios";
 
-export default function ContactForm() {
+export default function ContactForm(props) {
   function handleSubmit(e) {
     e.preventDefault();
 
@@ -24,7 +24,7 @@ export default function ContactForm() {
   }
 
   return (
-    <div className="Contact-form-container">
+    <div className="Contact-form-container" style={{width:props.width,height:props.height}}  >
       <form
         id="User-contact-form"
         className="Contact-form"
