@@ -1,37 +1,51 @@
 import React, { useState,useEffect } from "react";
 import { app } from "./firebaseSetup";
-import { getDatabase, ref, get,child } from "firebase/database";
+import { getDatabase, ref, limitToFirst,query,onValue, get } from "firebase/database";
 import "./CollegePage.css"
 
 export default function CollegePage() {
   const image="https://firebasestorage.googleapis.com/v0/b/leelavathieducationaltrust.appspot.com/o/carousel%20images%2Fmedicine.webp?alt=media&token=bceab6b2-9f4f-4d0a-9fcd-3ce10c39649b"
   const [data, setData] = useState([]);
   const database = getDatabase(app);
-  const dbRef = ref(database);
-  useEffect(()=>{
-    get(child(dbRef,"17GdT8R42AbMwR7_U_mCadtKOwECPbtelOtXODiMLDi0/medical")).then((snapshot) => {
-      if (snapshot.exists()) {
-        // console.log(snapshot.val());
-        setData(snapshot.val())
-        console.log(snapshot.val());
-      } else {
-        console.log("No data available");
-      }
-    }).catch((error) => {
-      console.error(error);
-    });
+   const db=query(
+     ref(database, '17GdT8R42AbMwR7_U_mCadtKOwECPbtelOtXODiMLDi0/medical'),
+      limitToFirst(15));
+     
+  // useEffect(()=>{
+  //   get(child(dbRef,"17GdT8R42AbMwR7_U_mCadtKOwECPbtelOtXODiMLDi0/medical")).then((snapshot) => {
+  //     if (snapshot.exists()) {
+  //       // console.log(snapshot.val());
+  //       setData(snapshot.val())
+  //       console.log(snapshot.val());
+  //     } else {
+  //       console.log("No data available");
+  //     }
+  //   }).catch((error) => {
+  //     console.error(error);
+  //   });
 
-  },[dbRef])
-  get(child(dbRef,"17GdT8R42AbMwR7_U_mCadtKOwECPbtelOtXODiMLDi0/medical")).then((snapshot) => {
+  // },[dbRef])
+  get(db,(snapshot)=>{
     if (snapshot.exists()) {
       // console.log(snapshot.val());
       setData(snapshot.val())
     } else {
       console.log("No data available");
     }
-  }).catch((error) => {
-    console.error(error);
-  });
+  }
+
+  )
+  // get(child(dbRef,"17GdT8R42AbMwR7_U_mCadtKOwECPbtelOtXODiMLDi0/medical")).then((snapshot) => {
+  //   if (snapshot.exists()) {
+  //     // console.log(snapshot.val());
+  //     setData(snapshot.val())
+  //   } else {
+  //     console.log("No data available");
+  //   }
+  // }).catch((error) => {
+  //   console.error(error);
+  // });
+  
 
   return (
     <div className="College-Page-Container">

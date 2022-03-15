@@ -7,6 +7,7 @@ import ay from "../assets/svg/home-remedies.svg";
 import "./HomePage.css";
 import Sitemap from "../components/Sitemap";
 
+
 export default function HomePage() {
   return (
     <div>
@@ -26,7 +27,7 @@ export function HomeSectionTwo() {
     },
     {
       icon: de,
-      title: "Dental",
+      title: "Engineering",
       text: "Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text",
     },
     {
@@ -35,32 +36,22 @@ export function HomeSectionTwo() {
       text: "Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text",
     },
   ];
-  // const ServiceList2 = [
-  //   {
-  //     icon: en,
-  //     title: "Engineering",
-  //     text: "Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text",
-  //   },
-  //   {
-  //     icon: ay,
-  //     title: "Ayush",
-  //     text: "Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text",
-  //   },
-  // ];
+  
   return (
     <div className="Home-section-Two" id="HomeId">
-      <h1 className="Home-section-title">The services we offer</h1>
+      <h1 className="Home-section-title">Our Services</h1>
 
       <div className="Home-section-wrapper">
         <div className="Service-wrapper-one">
           {ServiceList1.map((item, index) => {
-            // return <ServiceCard key={index} content={item}></ServiceCard>;
+           
             return <ServiceCard  key={index} content={item} />;
           })}
         </div>
       </div>
       <div className="contact-strip">
-        Do you want to join the best colleges? Get in touch!
+        <p>Do you want to join the best colleges?</p>
+        <button className="Home-page-click-btn">Click here</button>
       </div>
     </div>
   );
@@ -73,7 +64,8 @@ export function ServiceCard(props) {
         <div className="Service-card-shape">
           <img className="Service-icon" src={props.content.icon} alt=""></img>
           <p className="Service-title">{props.content.title}</p>
-          <p className="Service-text">{props.content.text}</p>
+          <a className="Service-btn" href={`counselling/${props.content.title}`} > Click</a>
+         
 
         </div>
       </div>

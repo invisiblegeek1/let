@@ -19,7 +19,7 @@
 .Service-card-hexagon{
     display: flex;
     flex-flow: row;
-    width: 350px;
+    width: 400px;
     height: 350px;
     align-items: center;
     justify-content: center;
@@ -66,6 +66,40 @@
 
     
 }
+.Home-page-click-btn{
+    width: 150px;
+    color: #1cac5c;
+    background-color: #fff;
+    font-size: 16px;
+    border-color: transparent;
+    border-radius: 40px;
+    height: 40px;
+
+    
+   
+    cursor: pointer;
+}
+.Service-btn{
+    display: flex;
+    width: 150px;
+    color: #1cac5c;
+    background-color: #fff;
+    font-size: 16px;
+    border: 1px solid #1cac5c;
+    border-radius: 40px;
+    height: 40px;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+
+    
+   
+    cursor: pointer;
+}
+.Service-btn:hover{
+    background-color: #1cac5c;
+    color: #fff;
+}
 .Service-content-container{
 
     display: flex;
@@ -73,6 +107,12 @@
     width: 200px;
     margin-left: 5px;
     
+}
+.Service-title{
+    display: flex;
+    font-size: 25px;
+    font-weight: 500;
+
 }
 .Service-content-container .Service-title{
     display: flex;
@@ -96,7 +136,7 @@
 .Home-section-Two{
     display: flex;
     width: 100%;
-    height: 750px;
+    height: 700px;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -119,8 +159,12 @@
     margin: 5px;
    
 }
+.contact-strip > p{
+    margin: 5px;
+}
 .contact-strip{
     display: flex;
+    flex-flow: column;
     align-items: center;
     justify-content: center;
     background-color: #1CAC5C;
@@ -129,13 +173,16 @@
     height: 150px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 40px;
-    font-weight: 500;
+    font-weight: 400;
+    text-align: center;
 }
+
 .Home-section-title{
     color: black;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 40px;
-    font-weight: 500;
+    font-size: 50px;
+    font-weight: 400;
+    margin: 5px 10px 5px 10px;
 }
 
 @media screen and (max-width:640px) {
@@ -147,6 +194,7 @@
     .Service-card-container,.Service-card-hexagon{
         width: 250px;
         height: 250px;
+        margin: 10px;
         
 
     }
@@ -179,10 +227,33 @@
         flex-wrap: wrap;
     }
     .contact-strip{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         font-size: 20px;
         text-align: center;
-        height: 200px;
+        height: 100px;
+
         overflow: none;
+    }
+    .contact-strip > p{
+
+        margin: 2px;
+
+    }
+    .Home-page-click-btn{
+        width: 150px;
+        color: #1cac5c;
+        background-color: #fff;
+        font-size: 14px;
+        border-color: transparent;
+        border-radius: 40px;
+        height: 30px;
+    
+        
+       
+        cursor: pointer;
     }
     .Home-section-Two{
         height: 1200px;

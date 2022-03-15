@@ -1,3 +1,10 @@
+.Sitemap-container{
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    box-sizing: border-box;
+    flex-direction: column;
+}
 .Sitemap-wrapper{
     display: flex;
     width: 100%;
@@ -6,6 +13,7 @@
     align-items: center;
     justify-content: space-around;
     flex-flow: row;
+    flex-wrap: wrap;
 }
 .Sitemap-copy{
     display: flex;
@@ -60,11 +68,21 @@
 }
 
 @media screen and (max-width:640px){
+    .Sitemap-container{
+        display: flex;
+        width: 100%;
+        height: fit-content;
+        box-sizing: border-box;
+        flex-direction: column;
+    }
     .Sitemap-wrapper{
-        height: 900px;
+        position: relative;
+        height: 100%;
         flex-flow: column;
         justify-content: center;
         padding: 0;
+        box-sizing: border-box;
+        margin: 0;
 
     }
     .Sitemap-navigation-link-container ul,.Sitemap-address-text{

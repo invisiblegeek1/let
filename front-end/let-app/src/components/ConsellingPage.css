@@ -1,0 +1,91 @@
+.Con_page_container{
+    display: flex;
+    width: 99.7%;
+    height: 100vh;
+    flex-flow: column;
+    
+    
+}
+.Con_Img_Container{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.Con-image{
+    display: flex;
+    height: 100%;
+    width: 99.99%;
+    object-fit: cover;
+    overflow-x: hidden;
+
+}
+.UG-con-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: fit-content;
+    padding: 5px;
+    box-sizing: border-box;
+    overflow-x: none;
+    margin-left: 2px;
+}
+
+.Con-card{
+    display: flex;
+    height: 60px;
+    width: 90%;
+    margin: 5px;
+    color: #000;
+    align-items: center;
+   
+    font-size: 30px;
+    padding-left: 15px;
+    border: 2px solid #1cac5c;
+   
+}
+.Con-card-title{
+    display: flex;
+    height: 60px;
+    width: 90%;
+    margin: 5px;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+   
+    font-size: 30px;
+    padding-left: 15px;
+    background-color: #1cac5c;
+    border: 2px solid #1cac5c;
+   
+}
+@media screen and (max-width:640px) {
+    .Con_Img_Container{
+        height:300px;
+    }
+    .Con-image{
+        height: 300px;
+    }
+    .Con_page_container{
+        display: flex;
+        width: 99%;
+        height: 100vh;
+        flex-flow: column;
+        overflow-x: hidden;
+    }
+
+    .Con-card,.Con-card-title{
+        font-size: 16px;
+        height: 100px;
+    }
+    .UG-con-container{
+        min-width: 375px;
+        
+    }
+    
+}

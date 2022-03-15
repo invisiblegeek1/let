@@ -1,0 +1,33 @@
+.whatsapp-btn-container{
+    display: block;
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    left: 80%;
+    top: 80%;
+    filter:drop-shadow(rgb(38, 57, 77) 0px 20px 30px -10px);
+}
+.whatsapp-btn{
+    display: block;
+    
+    width: 100px;
+    height: 100px;
+    
+
+}
+
+@media screen and (max-width:640px){
+    .whatsapp-btn-container{
+        width: 60px;
+    height: 60px;
+    left: 70%;
+
+    }
+    .whatsapp-btn{
+        width: 60px;
+    height: 60px;
+
+    }
+
+
+}

@@ -24,7 +24,10 @@ export default function ContactForm(props) {
   }
 
   return (
-    <div className="Contact-form-container" style={{width:props.width,height:props.height}}  >
+    <div
+      className="Contact-form-container"
+     
+    >
       <form
         id="User-contact-form"
         className="Contact-form"

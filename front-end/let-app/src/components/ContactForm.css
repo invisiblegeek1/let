@@ -1,8 +1,11 @@
 .Contact-form-container{
     display: flex;
-    /* height: 470px;
-    width: 400px; */
+    height: 470px;
+    width: 400px;
     flex-direction: column;
+    overflow: hidden;
+    overflow-x: none;
+    margin: 0;
     background-color: #fff;
     align-items: center;
     justify-content: space-evenly;
@@ -66,7 +69,7 @@
     .Contact-form-container{
         height: 350px;
         width: 300px;
-        margin: 10px;
+       
 
     }
     .Contact-form-input,.Contact-form-btn{

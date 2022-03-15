@@ -3,9 +3,10 @@
     width: 100%;
     height: 100vh;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     padding: 0;
     margin: 0;
+    
     
 }
 .College-Page-Wrrapper{
@@ -14,6 +15,7 @@
     height: 700px;
     flex-direction: column;
     margin: 0;
+    padding: 5px;
     
 
 }
@@ -110,11 +112,15 @@
 
 @media screen and (max-width:640px) {
     .data-list-item{
-        height: 90px;
+        height: 100px;
     }
     .data-list-item-header{
-        height: 90px;
-        font-size: 14px;
+        height: 100px;
+        font-size: 12.5px;
+        padding: 2px;
+    }
+    .data-list-item-header div{
+        text-align: center;
     }
 
     

@@ -32,13 +32,9 @@ export default function Navbar() {
             <ul className="Navbar-items">
               <li className="Navbar-item"><a href="/">HOME</a></li>
               {/* <Link className="Navbar-item" to="#HomeId">SERVICE</Link> */}
-              <li className="Navbar-item"><a href="#HomeId">SERVICE</a></li>
+              <li className="Navbar-item"><a href="#HomeId">SERVICES</a></li>
               <li className="Navbar-item">ABOUT</li>
-              <li className="Navbar-item">
-              <a href="colleges/medical">COLLEGES</a>
-                
-               
-                </li>
+              
               <li className="Navbar-item"><a href="#SitemapId">CONTACT</a></li>
             </ul>
           </div>
@@ -51,7 +47,7 @@ export default function Navbar() {
               className="contact-icon"
               onClick={() =>
                 window.open(
-                  "https://web.whatsapp.com:/919150436073?text=This%20is%20whatsapp%20sharing%20example%20using%20button"
+                  "https://wa.me/9698121212?text=Hi%20I%20am%20looking%20for%20your%20counselling"
                 )
               }
             ></img>
@@ -75,9 +71,9 @@ export default function Navbar() {
       >
         <ul className="Navbar-toggle-items">
           <li className="Navbar-toggle-item"><a href="/">HOME</a></li>
-          <li className="Navbar-toggle-item"><a href="#HomeId">SERVICE</a></li>
+          <li className="Navbar-toggle-item"><a href="#HomeId">SERVICES</a></li>
           <li className="Navbar-toggle-item">ABOUT</li>
-          <li className="Navbar-toggle-item">COLLEGES</li>
+          
           <li className="Navbar-toggle-item"><a href="#SitemapId">CONTACT</a></li>
         </ul>
       </div>

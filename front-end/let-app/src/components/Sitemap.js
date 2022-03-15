@@ -37,7 +37,7 @@ export default function Sitemap() {
             </div>
           </div>
         </div>
-        <ContactForm width="400px" height="470px"/>
+        <ContactForm/>
       </div>
       <div className="Sitemap-copy">
         <h4>Copyright &copy; 2022 All rights  to Leelavathieducational Trust</h4>
