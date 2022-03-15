@@ -1,16 +1,16 @@
 .Con_page_container{
     display: flex;
     width: 99.7%;
-    height: 100vh;
+    height: auto;
     flex-flow: column;
-    
+
     
 }
 .Con_Img_Container{
     display: flex;
     height: 100%;
     width: 100%;
-    flex-wrap: wrap;
+    
     align-items: center;
     justify-content: center;
 }

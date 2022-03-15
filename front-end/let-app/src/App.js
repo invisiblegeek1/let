@@ -19,7 +19,7 @@ export default function App() {
         <Route exact path="colleges/medical" element={<CollegePage />} />
         <Route exact path="counselling/Medical" element={<MedicalCounsellingPage />} />
         <Route exact path="counselling/Engineering" element={<EngineeringCounsellingPage />} />
-        <Route exact path="counselling/Other" element={<OtherCounsellingPage />} />
+        <Route exact path="counselling/Others" element={<OtherCounsellingPage />} />
       </Routes>
       <Whatsapp></Whatsapp>
 

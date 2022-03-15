@@ -14,7 +14,7 @@ export default function CarouselPage() {
     {
       img: "https://firebasestorage.googleapis.com/v0/b/leelavathieducationaltrust.appspot.com/o/carousel%20images%2Fdoctor-with-stethoscope-hands-hospital-background.webp?alt=media&token=21598627-0f33-46de-aaa1-b529776951ec",
       // img:medical,
-      text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      text: "Study hard until you can say, trust me, I’m your doctor",
     },
     {
       img: "https://firebasestorage.googleapis.com/v0/b/leelavathieducationaltrust.appspot.com/o/carousel%20images%2Fclose-up-hand-taking-notes.webp?alt=media&token=2c0dbc77-c3ae-46dd-9aff-22005c14d2e0",
@@ -24,7 +24,7 @@ export default function CarouselPage() {
     {
       img: "https://firebasestorage.googleapis.com/v0/b/leelavathieducationaltrust.appspot.com/o/carousel%20images%2Fdoctor-with-stethoscope-hands-hospital-background.webp?alt=media&token=21598627-0f33-46de-aaa1-b529776951ec",
       // img:medical,
-      text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      text: "A profession where knowledge, power and heart come together",
     },
   ];
 
@@ -43,7 +43,6 @@ export default function CarouselPage() {
             <img src={item.img} alt="" className="carosel-img" />
             <div className="Carosel-content">
               <p className="Carosel-text">{item.text}</p>
-              <button className="Carosel-read-more-btn">Read more</button>
             </div>
           </div>
         );

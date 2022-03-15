@@ -32,7 +32,7 @@ export default function Navbar() {
             <ul className="Navbar-items">
               <li className="Navbar-item"><a href="/">HOME</a></li>
               {/* <Link className="Navbar-item" to="#HomeId">SERVICE</Link> */}
-              <li className="Navbar-item"><a href="#HomeId">SERVICES</a></li>
+              <li className="Navbar-item"><a href="/#HomeId">SERVICES</a></li>
               <li className="Navbar-item">ABOUT</li>
               
               <li className="Navbar-item"><a href="#SitemapId">CONTACT</a></li>
@@ -71,7 +71,7 @@ export default function Navbar() {
       >
         <ul className="Navbar-toggle-items">
           <li className="Navbar-toggle-item"><a href="/">HOME</a></li>
-          <li className="Navbar-toggle-item"><a href="#HomeId">SERVICES</a></li>
+          <li className="Navbar-toggle-item"><a href="/#HomeId">SERVICES</a></li>
           <li className="Navbar-toggle-item">ABOUT</li>
           
           <li className="Navbar-toggle-item"><a href="#SitemapId">CONTACT</a></li>
