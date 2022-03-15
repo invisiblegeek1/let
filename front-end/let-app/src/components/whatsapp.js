@@ -6,7 +6,7 @@ import wh from "../assets/svg/whatsapp.svg";
 export default function () {
   return (
     <div className='whatsapp-btn-container'>
-        <a href='https://wa.me/9698121212?text=Hi%20I%20am%20looking%20for%20your%20counselling'>
+        <a href='https://wa.me/919698121212?text=Hi%20I%20am%20looking%20for%20your%20counselling'>
         <img src={wh} alt='' className='whatsapp-btn'></img>
 
 
