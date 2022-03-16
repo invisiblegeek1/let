@@ -9,7 +9,7 @@ import OtherCounsellingPage from "./components/OtherCounsellingPage";
 import { MedicalCounsellingPage } from "./components/MedicalCounsellingPage";
 
 import { Routes, Route } from "react-router-dom";
-import { getAnalytics } from "firebase/analytics";
+
 
 export default function App() {
   // const analytics = getAnalytics();
