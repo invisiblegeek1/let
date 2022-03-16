@@ -11,6 +11,8 @@ import {MedicalCounsellingPage} from "./components/MedicalCounsellingPage";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 export default function App() {
+
+
   return (
     <div className="App">
       <Navbar></Navbar>

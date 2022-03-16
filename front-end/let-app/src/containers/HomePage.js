@@ -51,7 +51,7 @@ export function HomeSectionTwo() {
       </div>
       <div className="contact-strip">
         <p>Do you want to join the best colleges?</p>
-        <button className="Home-page-click-btn">Click here</button>
+        <button className="Home-page-click-btn"><a href="https://forms.gle/GkyQNxvrn1Vkd9nz8"> Click here</a></button>
       </div>
     </div>
   );

@@ -3,6 +3,22 @@ import Sitemap from "./Sitemap";
 import "./CounsellingPage.css";
 
 export default function EngineeringCounsellingPage() {
+  const EnggCourse = [
+    "Aeronautical/Aerospace",
+    "Agriculture",
+    "Automobile",
+    "Biomedical",
+    "Biotechnology",
+    "Biotechnology",
+    "Computer science (AI/IOT/ML)",
+    "ECE/EEE",
+    "Marine Engineering",
+    "Mechanical Engineering",
+    "Petroleum",
+  ];
+  const handleFormLink=()=>{
+    return window.open('https://forms.gle/GkyQNxvrn1Vkd9nz8')
+  }
   return (
     <div className="Con_page_container">
       <div className="Con_Img_Container">
@@ -14,17 +30,13 @@ export default function EngineeringCounsellingPage() {
       </div>
       <div className="UG-con-container">
         <div className="Con-card-title">UG / PG Counselling</div>
-        <div className="Con-card">Aeronautical/Aerospace</div>
-        <div className="Con-card"> Agriculture</div>
-        <div className="Con-card">Automobile</div>
-        <div className="Con-card">Biomedical</div>
-        <div className="Con-card">Biotechnology</div>
-        <div className="Con-card">Civil,</div>
-        <div className="Con-card">Computer science (AI/IOT/ML)</div>
-        <div className="Con-card">ECE/EEE</div>
-        <div className="Con-card">Marine Engineering</div>
-        <div className="Con-card">Mechanical Engineering</div>
-        <div className="Con-card">Petroleum</div>
+        {EnggCourse.map((item, index) => {
+          return (
+            <div className="Con-card" key={index} onClick={handleFormLink}>
+              {item}
+            </div>
+          );
+        })}
       </div>
 
       <Sitemap></Sitemap>

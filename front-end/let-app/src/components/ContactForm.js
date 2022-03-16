@@ -17,6 +17,7 @@ export default function ContactForm(props) {
       .then((res) => {
         console.log(res);
         alert("Success!");
+        e.target.reset();
       })
       .catch((err) => {
         console.log(err);

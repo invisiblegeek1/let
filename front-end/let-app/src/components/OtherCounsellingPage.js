@@ -4,6 +4,10 @@ import "./CounsellingPage.css";
 
 export default  function OtherCounsellingPage() {
   
+  const handleFormLink=()=>{
+    return window.open('https://forms.gle/GkyQNxvrn1Vkd9nz8')
+  }
+  
     return (
       <div className="Con_page_container">
         <div className="Con_Img_Container">
@@ -13,8 +17,8 @@ export default  function OtherCounsellingPage() {
           <div className="Con-card-title">
           UG / PG counselling
           </div>
-          <div className="Con-card">
-          Arts & Management
+          <div className="Con-card" onClick={handleFormLink}>
+          Arts and Management
           </div>
          
         </div>
