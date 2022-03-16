@@ -44,10 +44,23 @@
     color: #000;
     align-items: center;
    
-    font-size: 30px;
+    font-size: 25px;
     padding-left: 15px;
     border: 2px solid #1cac5c;
    
+}
+#Con-gen-info-title{
+    background-color: #1c5aac;
+    border: 2px solid #1c5aac;
+   
+
+}
+#Con-gen-info{
+    
+    border: 2px solid #1c5aac;
+    font-size: 22px;
+   
+
 }
 .Con-card-title{
     display: flex;

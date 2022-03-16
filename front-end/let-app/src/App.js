@@ -6,7 +6,7 @@ import Whatsapp from "./components/whatsapp";
 import CollegePage from "./components/CollegePage";
 import EngineeringCounsellingPage from "./components/EngineeringCounsellingPage";
 import OtherCounsellingPage from "./components/OtherCounsellingPage";
-import {MedicalCounsellingPage} from "./components/CounsellingPage";
+import {MedicalCounsellingPage} from "./components/MedicalCounsellingPage";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 

@@ -1,17 +1,41 @@
 .whatsapp-btn-container{
     display: block;
     position: fixed;
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
     left: 80%;
     top: 80%;
-    filter:drop-shadow(rgb(38, 57, 77) 0px 20px 30px -10px);
-}
-.whatsapp-btn{
-    display: block;
     
-    width: 100px;
-    height: 100px;
+    
+    filter:drop-shadow(rgb(38, 57, 77) 0px 20px 30px -10px);
+    
+}
+
+.whatsapp-btn-container > a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.whatsapp-btn{
+    display: flex;
+    background-color: #25d366;
+    width: 70px;
+    height: 70px;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+    font-size: 50px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+  
+    
     
 
 }

@@ -47,7 +47,7 @@ export default function Navbar() {
               className="contact-icon"
               onClick={() =>
                 window.open(
-                  "https://wa.me/9698121212?text=Hi%20I%20am%20looking%20for%20your%20counselling"
+                  "https://wa.me/+919698121212?text=Hi%20I%20am%20looking%20for%20your%20counselling"
                 )
               }
             ></img>

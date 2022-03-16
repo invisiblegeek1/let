@@ -1,6 +1,6 @@
 import React from "react";
 import Sitemap from "./Sitemap";
-import "./ConsellingPage.css";
+import "./CounsellingPage.css";
 
 export default function EngineeringCounsellingPage() {
   return (
