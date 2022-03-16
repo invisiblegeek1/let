@@ -13,10 +13,16 @@ export default function Sitemap() {
         <div className="Sitemap-navigation-link-container">
           <h2>Navigation</h2>
           <ul>
-            <li><a href="/">HOME</a></li>
-            <li><a href="#HomeId">SERVICE</a></li>
+            <li>
+              <a href="/">HOME</a>
+            </li>
+            <li>
+              <a href="#HomeId">SERVICE</a>
+            </li>
             <li>ABOUT</li>
-            <li><a href="#SitemapId">CONTACT</a></li>
+            <li>
+              <a href="#SitemapId">CONTACT</a>
+            </li>
           </ul>
         </div>
         <div className="Sitemap-contact-container">
@@ -31,16 +37,26 @@ export default function Sitemap() {
           </div>
           <div className="Sitemap-address-container">
             <img className="Sitemap-address-icon" alt="" src={lo} />
+            <a
+              className="Sitemap-address-text"
+              href="https://maps.app.goo.gl/qetpc9uBAhPY7ZBaA"
+            >
+              Google map
+            </a>
+          </div>
+          <div className="Sitemap-address-container">
+            <img className="Sitemap-address-icon" alt="" src={lo} />
 
             <div className="Sitemap-address-text">
-              No 1,example street, chennai, tamil nadu 123456
+              New No: 4/8, Rajendra Colony, Saligramam, Chennai, Tamil Nadu
+              600093
             </div>
           </div>
         </div>
-        <ContactForm/>
+        <ContactForm />
       </div>
       <div className="Sitemap-copy">
-        <h4>Copyright &copy; 2022 All rights  to Leelavathieducational Trust</h4>
+        <h4>Copyright &copy; 2022 All rights to Leelavathieducational Trust</h4>
       </div>
     </div>
   );

@@ -11,7 +11,7 @@ export default function () {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <i class="fa fa-whatsapp whatsapp-icon whatsapp-btn" ></i>
+        <i class="fa fa-whatsapp whatsapp-icon whatsapp-btn"></i>
         {/* <img src={wh} alt="" className="whatsapp-btn"></img> */}
       </a>
     </div>

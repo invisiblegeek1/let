@@ -7,7 +7,6 @@ import ay from "../assets/svg/home-remedies.svg";
 import "./HomePage.css";
 import Sitemap from "../components/Sitemap";
 
-
 export default function HomePage() {
   return (
     <div>
@@ -36,7 +35,7 @@ export function HomeSectionTwo() {
       text: "Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text",
     },
   ];
-  
+
   return (
     <div className="Home-section-Two" id="HomeId">
       <h1 className="Home-section-title">Our Services</h1>
@@ -44,14 +43,15 @@ export function HomeSectionTwo() {
       <div className="Home-section-wrapper">
         <div className="Service-wrapper-one">
           {ServiceList1.map((item, index) => {
-           
-            return <ServiceCard  key={index} content={item} />;
+            return <ServiceCard key={index} content={item} />;
           })}
         </div>
       </div>
       <div className="contact-strip">
         <p>Do you want to join the best colleges?</p>
-        <button className="Home-page-click-btn"><a href="https://forms.gle/GkyQNxvrn1Vkd9nz8"> Click here</a></button>
+        <button className="Home-page-click-btn">
+          <a href="https://forms.gle/kHiRAfonxrqVCD7VA"> Click here</a>
+        </button>
       </div>
     </div>
   );
@@ -64,14 +64,15 @@ export function ServiceCard(props) {
         <div className="Service-card-shape">
           <img className="Service-icon" src={props.content.icon} alt=""></img>
           <p className="Service-title">{props.content.title}</p>
-          <a className="Service-btn" href={`counselling/${props.content.title}`} > Click</a>
-         
-
+          <a
+            className="Service-btn"
+            href={`counselling/${props.content.title}`}
+          >
+            {" "}
+            Click
+          </a>
         </div>
       </div>
-      
-
-      
     </div>
   );
 }

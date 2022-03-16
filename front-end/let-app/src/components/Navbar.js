@@ -4,13 +4,13 @@ import logo from "../assets/images/logo-leelavathi-education-trust.jpg";
 import wa from "../assets/svg/whatsapp-brands.svg";
 import ma from "../assets/svg/envelope-regular.svg";
 import mo from "../assets/svg/mobile-alt-solid.svg";
-import { useNavigate,nav } from "react-router-dom";
+import { useNavigate, nav } from "react-router-dom";
 //import { Link } from "react-router-dom";
 export default function Navbar() {
-  let navigate=useNavigate();
-  const handleClick=(route)=>{
+  let navigate = useNavigate();
+  const handleClick = (route) => {
     navigate(route);
-  }
+  };
   const [toggleState, setToggleState] = useState(false);
   return (
     <div className="Navbar-outter-container">
@@ -30,12 +30,18 @@ export default function Navbar() {
               <div className="Toggle-bar"></div>
             </div>
             <ul className="Navbar-items">
-              <li className="Navbar-item"><a href="/">HOME</a></li>
+              <li className="Navbar-item">
+                <a href="/">HOME</a>
+              </li>
               {/* <Link className="Navbar-item" to="#HomeId">SERVICE</Link> */}
-              <li className="Navbar-item"><a href="/#HomeId">SERVICES</a></li>
+              <li className="Navbar-item">
+                <a href="/#HomeId">SERVICES</a>
+              </li>
               <li className="Navbar-item">ABOUT</li>
-              
-              <li className="Navbar-item"><a href="#SitemapId">CONTACT</a></li>
+
+              <li className="Navbar-item">
+                <a href="#SitemapId">CONTACT</a>
+              </li>
             </ul>
           </div>
         </div>
@@ -70,11 +76,17 @@ export default function Navbar() {
         style={{ display: toggleState === true ? "flex" : "none" }}
       >
         <ul className="Navbar-toggle-items">
-          <li className="Navbar-toggle-item"><a href="/">HOME</a></li>
-          <li className="Navbar-toggle-item"><a href="/#HomeId">SERVICES</a></li>
+          <li className="Navbar-toggle-item">
+            <a href="/">HOME</a>
+          </li>
+          <li className="Navbar-toggle-item">
+            <a href="/#HomeId">SERVICES</a>
+          </li>
           <li className="Navbar-toggle-item">ABOUT</li>
-          
-          <li className="Navbar-toggle-item"><a href="#SitemapId">CONTACT</a></li>
+
+          <li className="Navbar-toggle-item">
+            <a href="#SitemapId">CONTACT</a>
+          </li>
         </ul>
       </div>
     </div>

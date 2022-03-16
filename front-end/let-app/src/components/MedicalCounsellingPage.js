@@ -29,9 +29,9 @@ export function MedicalCounsellingPage() {
     "Armed Forces Medical Services Institutions (only Registration part).",
   ];
 
-  const handleFormLink=()=>{
-    return window.open('https://forms.gle/GkyQNxvrn1Vkd9nz8')
-  }
+  const handleFormLink = () => {
+    return window.open("https://forms.gle/GkyQNxvrn1Vkd9nz8");
+  };
 
   return (
     <div className="Con_page_container">
@@ -39,22 +39,29 @@ export function MedicalCounsellingPage() {
         <img
           className="Con-image"
           alt=""
-          src="https://media.istockphoto.com/photos/businessman-hold-virtual-medical-network-connection-icons-covid19-picture-id1312765142?b=1&k=20&m=1312765142&s=170667a&w=0&h=ma8qI_qiKbpNXLqKbQN1HKmSr1hfEn2dw6XyCB-nsSA="
+          src="https://firebasestorage.googleapis.com/v0/b/leelavathieducationaltrust.appspot.com/o/carousel%20images%2Fbussines-med.jpg?alt=media&token=78d35997-8a17-435e-915d-1499629ec2bf"
         ></img>
       </div>
       <div className="UG-con-container">
         <div className="Con-card-title">UG /PG counselling</div>
         {medicalCourse.map((item, index) => {
-          return <div className="Con-card"key={index} onClick={handleFormLink}>{item}</div>;
+          return (
+            <div className="Con-card" key={index} onClick={handleFormLink}>
+              {item}
+            </div>
+          );
         })}
 
         <div className="Con-card-title" id="Con-gen-info-title">
           General Information
         </div>
-        {medicalGenInfo.map((item,index)=>{
-          return <div className="Con-card" id="Con-gen-info" key={index}>{item}</div>
+        {medicalGenInfo.map((item, index) => {
+          return (
+            <div className="Con-card" id="Con-gen-info" key={index}>
+              {item}
+            </div>
+          );
         })}
-        
       </div>
       <Sitemap></Sitemap>
     </div>
