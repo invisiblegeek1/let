@@ -1,6 +1,7 @@
 import React from "react";
 import Sitemap from "./Sitemap";
 import "./CounsellingPage.css";
+import arrow from "../assets/svg/shapes/arroe.svg"
 
 export function MedicalCounsellingPage() {
   const medicalCourse = [
@@ -14,7 +15,7 @@ export function MedicalCounsellingPage() {
     "Pharm D",
   ];
   const medicalGenInfo = [
-    "15% All India Quota seats MBBS/ BDS Seats of States (participation of the Union Territory of J&K is subject to their contribution of seats)",
+    "15% All India Quota seats MBBS/ BDS Seats of States ",
     " 100%MBBS/ BDS Seats of BHU",
     " 100% MBBS Seats of AIIMS across India",
     "100% JIPMER seats (Puducherry/ Karaikal)",
@@ -22,10 +23,10 @@ export function MedicalCounsellingPage() {
     " 85% of State Quota seats of DU/ I.P University (VMMC/ ABVIMS/ESIC Dental)",
     "100% -Faculty of Dentistry (Jamia Milia Islamia) along with 5% internal Quota of Jamia students",
     "15% IP quota seats of ESIC",
-    "50% All India Quota seats of all states (participation of the Union Territory of J&K is subject to their contribution of seats)",
+    "50% All India Quota seats of all states ",
     " 100% seats (All India Quota seats + Institutional Quota seats) of Central Universities",
     "100% seats of Deemed Universities.",
-    "50% AIQ P.G seats of colleges under Employee State Insurance Corporation (wards of ESIC insured persons).",
+    "50% AIQ P.G seats of colleges under Employee State Insurance Corporation ",
     "Armed Forces Medical Services Institutions (only Registration part).",
   ];
 
@@ -47,7 +48,8 @@ export function MedicalCounsellingPage() {
         {medicalCourse.map((item, index) => {
           return (
             <div className="Con-card" key={index} onClick={handleFormLink}>
-              {item}
+              <p>{item}</p>
+              <img src={arrow} className="arrow-icon" alt=""></img>
             </div>
           );
         })}
@@ -58,7 +60,8 @@ export function MedicalCounsellingPage() {
         {medicalGenInfo.map((item, index) => {
           return (
             <div className="Con-card" id="Con-gen-info" key={index}>
-              {item}
+              <p>{item}</p>
+              
             </div>
           );
         })}

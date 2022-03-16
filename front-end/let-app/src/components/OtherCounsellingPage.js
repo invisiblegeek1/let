@@ -1,6 +1,7 @@
 import React from "react";
 import Sitemap from "./Sitemap";
 import "./CounsellingPage.css";
+import arrow from "../assets/svg/shapes/arroe.svg";
 
 export default function OtherCounsellingPage() {
   const handleFormLink = () => {
@@ -19,7 +20,9 @@ export default function OtherCounsellingPage() {
       <div className="UG-con-container">
         <div className="Con-card-title">UG / PG counselling</div>
         <div className="Con-card" onClick={handleFormLink}>
-          Arts and Management
+          <p>Arts and Management</p>
+          
+              <img src={arrow} className="arrow-icon" alt=""></img>
         </div>
       </div>
 

@@ -1,6 +1,6 @@
 import React from "react";
 import "./whatsapp.css";
-import wh from "../assets/svg/whatsapp.svg";
+
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default function () {

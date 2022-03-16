@@ -1,6 +1,7 @@
 import React from "react";
 import Sitemap from "./Sitemap";
 import "./CounsellingPage.css";
+import arrow from "../assets/svg/shapes/arroe.svg";
 
 export default function EngineeringCounsellingPage() {
   const EnggCourse = [
@@ -33,7 +34,8 @@ export default function EngineeringCounsellingPage() {
         {EnggCourse.map((item, index) => {
           return (
             <div className="Con-card" key={index} onClick={handleFormLink}>
-              {item}
+              <p>{item}</p>
+              <img src={arrow} className="arrow-icon" alt=""></img>
             </div>
           );
         })}
