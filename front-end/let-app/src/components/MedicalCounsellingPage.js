@@ -1,7 +1,8 @@
 import React from "react";
 import Sitemap from "./Sitemap";
 import "./CounsellingPage.css";
-import arrow from "../assets/svg/shapes/arroe.svg"
+import arrow from "../assets/svg/shapes/arroe.svg";
+import diamond from "../assets/svg/shapes/diamond.svg";
 
 export function MedicalCounsellingPage() {
   const medicalCourse = [
@@ -31,7 +32,7 @@ export function MedicalCounsellingPage() {
   ];
 
   const handleFormLink = () => {
-    return window.open("https://forms.gle/GkyQNxvrn1Vkd9nz8");
+    return window.open("https://forms.gle/B1hNTDY1Tw8oqzi97");
   };
 
   return (
@@ -59,7 +60,8 @@ export function MedicalCounsellingPage() {
         </div>
         {medicalGenInfo.map((item, index) => {
           return (
-            <div className="Con-card" id="Con-gen-info" key={index}>
+            <div className="Con-card"  id="Con-gen-info" key={index}>
+              <img src={diamond} alt="" className="diamond_bullet_point"></img>
               <p>{item}</p>
               
             </div>

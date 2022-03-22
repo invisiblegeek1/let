@@ -27,10 +27,10 @@ export default function Sitemap() {
         </div>
         <div className="Sitemap-contact-container">
           <h1>Contact</h1>
-          <div className="Sitemap-address-container">
+          {/* <div className="Sitemap-address-container">
             <img className="Sitemap-address-icon" alt="" src={mo} />
             <div className="Sitemap-address-text">91-9282121212</div>
-          </div>
+          </div> */}
           <div className="Sitemap-address-container">
             <img className="Sitemap-address-icon" alt="" src={wh} />
             <div className="Sitemap-address-text">9698121212</div>

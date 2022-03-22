@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import HomePage from "./containers/HomePage";
 import "./App.css";
 import Whatsapp from "./components/whatsapp";
+import Aboutus from "./components/Aboutus";
 // import CollegePage from "./components/CollegePage";
 import EngineeringCounsellingPage from "./components/EngineeringCounsellingPage";
 import OtherCounsellingPage from "./components/OtherCounsellingPage";
@@ -34,6 +35,11 @@ export default function App() {
           exact
           path="counselling/Others"
           element={<OtherCounsellingPage />}
+        />
+        <Route
+          exact
+          path="aboutus"
+          element={<Aboutus />}
         />
       </Routes>
       <Whatsapp></Whatsapp>

@@ -22,6 +22,17 @@
     overflow-x: hidden;
 
 }
+.diamond_bullet_point > svg{
+    fill: #1c5aac;
+
+}
+.diamond_bullet_point{
+    height: 20px;
+    width: 20px;
+    
+    
+    margin-right: 20px;
+}
 .arrow-icon{
     display: block;
     height: 20px;
@@ -54,7 +65,7 @@
     font-size: 25px;
     padding-left: 15px;
     border: 2px solid #1cac5c;
-    justify-content: space-between;
+    
    
 }
 #Con-gen-info-title{
@@ -64,9 +75,11 @@
 
 }
 #Con-gen-info{
-    
-    border: 2px solid #1c5aac;
+/*     
+    border: 2px solid #1c5aac; */
     font-size: 22px;
+    border: none;
+    justify-content: left;
     
    
 

@@ -37,7 +37,8 @@ export default function Navbar() {
               <li className="Navbar-item">
                 <a href="/#HomeId">SERVICES</a>
               </li>
-              <li className="Navbar-item">ABOUT</li>
+              <li className="Navbar-item">
+              <a href="/aboutus">ABOUT</a></li>
 
               <li className="Navbar-item">
                 <a href="#SitemapId">CONTACT</a>
@@ -82,7 +83,7 @@ export default function Navbar() {
           <li className="Navbar-toggle-item">
             <a href="/#HomeId">SERVICES</a>
           </li>
-          <li className="Navbar-toggle-item">ABOUT</li>
+          <li className="Navbar-toggle-item"><a href="/aboutus">ABOUT</a></li>
 
           <li className="Navbar-toggle-item">
             <a href="#SitemapId">CONTACT</a>
