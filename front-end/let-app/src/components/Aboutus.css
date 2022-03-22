@@ -1,0 +1,35 @@
+.About_Us_Container{
+    display: flex;
+    width: 99.7%;
+    height: auto;
+    flex-flow: column;
+
+}
+
+.About_Us_Wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: fit-content;
+    padding: 5px;
+    box-sizing: border-box;
+    overflow-x: none;
+    margin-left: 2px;
+
+
+}
+
+#About-info{
+    /*     
+        border: 2px solid #1c5aac; */
+        font-size: 25px;
+        border: none;
+        justify-content: left;
+        height: 150px;
+        
+       
+    
+    }

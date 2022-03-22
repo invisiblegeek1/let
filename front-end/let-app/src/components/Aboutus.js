@@ -1,6 +1,8 @@
 import React from 'react';
 import "./CounsellingPage.css";
+import "./Aboutus.css"
 import diamond from "../assets/svg/shapes/diamondBlue.svg";
+import Sitemap from './Sitemap';
 
 export default function Aboutus() {
   const aboutUs=[
@@ -15,7 +17,7 @@ export default function Aboutus() {
         <div className="Con-card-title">About Us</div>
         {aboutUs.map((item, index) => {
           return (
-            <div className="Con-card"  id="Con-gen-info" key={index}>
+            <div className="Con-card"  id="About-info" key={index}>
               <img src={diamond} alt="" className="diamond_bullet_point"></img>
               <p>{item}</p>
               
@@ -26,6 +28,7 @@ export default function Aboutus() {
 
             
         </div>
+        <Sitemap />
     </div>
   )
 }
