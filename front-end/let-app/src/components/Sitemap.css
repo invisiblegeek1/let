@@ -71,7 +71,7 @@
     .Sitemap-container{
         display: flex;
         width: 100%;
-        height: fit-content;
+        height: auto;
         box-sizing: border-box;
         flex-direction: column;
     }

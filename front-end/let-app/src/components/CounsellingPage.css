@@ -117,7 +117,7 @@
         overflow-x: hidden;
     }
 
-    .Con-card,.Con-card-title{
+    .Con-card,.Con-card-title,#Con-gen-info,#About-info{
         font-size: 18px;
         height: 100px;
     }

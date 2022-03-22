@@ -33,3 +33,14 @@
        
     
     }
+
+    @media screen and (max-width:640px) {
+
+        #About-info{
+            font-size: 14px;
+        height: 210px;
+        text-align: justify;
+
+        }
+
+    }
