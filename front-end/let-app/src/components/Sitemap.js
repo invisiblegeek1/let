@@ -19,9 +19,9 @@ export default function Sitemap() {
             <li>
               <a href="#HomeId">SERVICE</a>
             </li>
-            <li><a href="#HomeId">ABOUT</a></li>
+            <li><a href="/aboutus">ABOUT</a></li>
             <li>
-              <a href="/aboutus">CONTACT</a>
+              <a href="/#SitemapId">CONTACT</a>
             </li>
           </ul>
         </div>

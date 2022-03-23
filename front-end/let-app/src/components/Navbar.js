@@ -61,11 +61,12 @@ export default function Navbar() {
             <p>9698121212</p>
           </div>
           <div className="contact-element">
-            <img src={mo} alt="" className="contact-icon"></img>
-            <p>91-9282121212</p>
+          <a href="tel:919282121212"><img src={mo} alt="" className="contact-icon"></img></a>
+            <a href="tel:919282121212"><p>91-9282121212</p></a>
+            
           </div>
           <div className="contact-element">
-            <img src={ma} alt="" className="contact-icon"></img>
+          <a href="mailto:leelavathicareers@gmail.com"><img src={ma} alt="" className="contact-icon"></img></a>
             <a href="mailto:leelavathicareers@gmail.com">
               <p>leelavathicareers@gmail.com</p>
             </a>

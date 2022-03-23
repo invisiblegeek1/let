@@ -10,7 +10,7 @@ export default function EngineeringCounsellingPage() {
     "Automobile",
     "Biomedical",
     "Biotechnology",
-    "Biotechnology",
+    "Civil",
     "Computer science (AI/IOT/ML)",
     "ECE/EEE",
     "Marine Engineering",
@@ -30,7 +30,7 @@ export default function EngineeringCounsellingPage() {
         ></img>
       </div>
       <div className="UG-con-container">
-        <div className="Con-card-title">UG / PG Counselling</div>
+        <div className="Con-card-title">UG / PG Courses Offered</div>
         {EnggCourse.map((item, index) => {
           return (
             <div className="Con-card" key={index} onClick={handleFormLink}>

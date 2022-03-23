@@ -33,12 +33,27 @@
     text-align: center;
     align-items: center;
     justify-content: center;
+    animation: glowing 1300ms infinite;
     
   
     
     
 
 }
+@keyframes glowing {
+    0% {
+      background-color: #25d366;
+      box-shadow: 0 0 3px #25d366;
+    }
+    50% {
+      background-color: #22e907c4;
+      box-shadow: 0 0 15px #22e907c4;
+    }
+    100% {
+      background-color: #25d366;
+      box-shadow: 0 0 3px #25d366;
+    }
+  }
 
 @media screen and (max-width:640px){
     .whatsapp-btn-container{

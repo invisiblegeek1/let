@@ -18,7 +18,7 @@ export default function OtherCounsellingPage() {
         ></img>
       </div>
       <div className="UG-con-container">
-        <div className="Con-card-title">UG / PG counselling</div>
+        <div className="Con-card-title">UG / PG Courses Offered</div>
         <div className="Con-card" onClick={handleFormLink}>
           <p>Arts and Management</p>
           

@@ -63,7 +63,7 @@
     cursor: pointer;
     justify-content: space-between;
    
-    font-size: 35px;
+    font-size: 25px;
     padding-left: 15px;
     border: 2px solid #1cac5c;
     font-family: 'Poppins', sans-serif;
@@ -79,7 +79,7 @@
 #Con-gen-info{
 /*     
     border: 2px solid #1c5aac; */
-    font-size: 35px;
+    font-size: 25px;
     border: none;
     justify-content: left;
     
