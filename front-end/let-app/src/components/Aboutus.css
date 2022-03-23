@@ -28,7 +28,8 @@
         font-size: 25px;
         border: none;
         justify-content: left;
-        height: 150px;
+        height: fit-content;
+        padding: 10px;
         
        
     

@@ -49,7 +49,7 @@ export default function ContactForm(props) {
           name="Mobile"
           className="Contact-form-input"
           type="text"
-          placeholder="Mobilel"
+          placeholder="Mobile"
           required
         />
         <textarea
