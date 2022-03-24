@@ -5,7 +5,7 @@ import arrow from "../assets/svg/shapes/arroe.svg";
 
 export default function OtherCounsellingPage() {
   const handleFormLink = () => {
-    return window.open("https://forms.gle/GkyQNxvrn1Vkd9nz8");
+    return window.open("https://forms.gle/xk6Qao66wB3f295K8");
   };
 
   return (

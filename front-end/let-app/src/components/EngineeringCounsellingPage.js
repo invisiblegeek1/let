@@ -16,7 +16,9 @@ export default function EngineeringCounsellingPage() {
     "Marine Engineering",
     "Mechanical Engineering",
     "Petroleum",
-  ];
+    "B.Arch",
+    "Food technology",
+  ].sort();
   const handleFormLink = () => {
     return window.open("https://forms.gle/kHiRAfonxrqVCD7VA");
   };

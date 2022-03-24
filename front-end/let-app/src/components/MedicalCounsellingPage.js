@@ -6,12 +6,15 @@ import diamond from "../assets/svg/shapes/diamond.svg";
 
 export function MedicalCounsellingPage() {
   const medicalCourse = [
+    "MD/MS/Diploma",
     " MBBS",
     "BDS",
     "BVSc.AH(Veterinary)",
     "BAMS(Ayurvedic medicine)",
     "BHMS(Homeopathy medicine)",
     "B.Sc Nursing",
+    "B.sc Agriculture",
+    "B.sc Allied health sciences",
     "B.Pharm",
     "Pharm D",
   ];
@@ -60,10 +63,9 @@ export function MedicalCounsellingPage() {
         </div>
         {medicalGenInfo.map((item, index) => {
           return (
-            <div className="Con-card"  id="Con-gen-info" key={index}>
+            <div className="Con-card" id="Con-gen-info" key={index}>
               <img src={diamond} alt="" className="diamond_bullet_point"></img>
               <p>{item}</p>
-              
             </div>
           );
         })}
