@@ -19,9 +19,21 @@ export default function Sitemap() {
             <li>
               <a href="#HomeId">SERVICE</a>
             </li>
-            <li><a href="/aboutus">ABOUT</a></li>
+            <li>
+              <a href="/aboutus">ABOUT</a>
+            </li>
             <li>
               <a href="/#SitemapId">CONTACT</a>
+            </li>
+            <li>
+              <a
+                href="https://firebasestorage.googleapis.com/v0/b/leelavathieducationaltrust.appspot.com/o/ENGINEERING%20and%20MEDICAL.pdf?alt=media&token=45bfe81c-8792-4228-bbfd-eb36771c8512"
+                target="_blank"
+                download
+                rel="noreferrer"
+              >
+                BROCHURE
+              </a>
             </li>
           </ul>
         </div>
@@ -56,7 +68,10 @@ export default function Sitemap() {
         <ContactForm />
       </div>
       <div className="Sitemap-copy">
-        <h4>Copyright &copy; 2022 All rights reserved to Leelavathieducational Trust</h4>
+        <h4>
+          Copyright &copy; 2022 All rights reserved to Leelavathieducational
+          Trust
+        </h4>
       </div>
     </div>
   );

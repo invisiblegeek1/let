@@ -30,15 +30,18 @@
     width: 150px;
     background-color: #1cac5c;
     color: #fff;
-    font-size: 16px;
+    font-size: 20px;
     font-family: 'Poppins', sans-serif;
     border-color: transparent;
     border-radius: 40px;
     height: 50px;
-    align-self: flex-start;
+    
     left: 0;
     float: left;
     cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 .Carosel-img-container .carosel-img{
     display: block;

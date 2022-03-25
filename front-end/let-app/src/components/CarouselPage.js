@@ -46,6 +46,7 @@ export default function CarouselPage() {
             <img src={item.img} alt="" className="carosel-img" />
             <div className="Carosel-content">
               <p className="Carosel-text">{item.text}</p>
+              <a  href="https://firebasestorage.googleapis.com/v0/b/leelavathieducationaltrust.appspot.com/o/ENGINEERING%20and%20MEDICAL.pdf?alt=media&token=45bfe81c-8792-4228-bbfd-eb36771c8512" target="_blank" download rel="noreferrer"><button className="Carosel-read-more-btn">Brochure</button></a>
             </div>
           </div>
         );
