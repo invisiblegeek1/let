@@ -21,8 +21,8 @@ export default function OtherCounsellingPage() {
         <div className="Con-card-title">UG / PG Courses Offered</div>
         <div className="Con-card" onClick={handleFormLink}>
           <p>Arts and Management</p>
-          
-              <img src={arrow} className="arrow-icon" alt=""></img>
+
+          <img src={arrow} className="arrow-icon" alt=""></img>
         </div>
       </div>
 

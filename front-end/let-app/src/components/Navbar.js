@@ -40,7 +40,8 @@ export default function Navbar() {
                 <a href="/#HomeId">SERVICES</a>
               </li>
               <li className="Navbar-item">
-              <a href="/aboutus">ABOUT</a></li>
+                <a href="/aboutus">ABOUT</a>
+              </li>
 
               <li className="Navbar-item">
                 <a href="#SitemapId">CONTACT</a>
@@ -63,12 +64,17 @@ export default function Navbar() {
             <p>9698121212</p>
           </div>
           <div className="contact-element">
-          <a href="tel:919282121212"><img src={mo} alt="" className="contact-icon"></img></a>
-            <a href="tel:919282121212"><p>91-9282121212</p></a>
-            
+            <a href="tel:919282121212">
+              <img src={mo} alt="" className="contact-icon"></img>
+            </a>
+            <a href="tel:919282121212">
+              <p>91-9282121212</p>
+            </a>
           </div>
           <div className="contact-element">
-          <a href="mailto:leelavathicareers@gmail.com"><img src={ma} alt="" className="contact-icon"></img></a>
+            <a href="mailto:leelavathicareers@gmail.com">
+              <img src={ma} alt="" className="contact-icon"></img>
+            </a>
             <a href="mailto:leelavathicareers@gmail.com">
               <p>leelavathicareers@gmail.com</p>
             </a>
@@ -86,7 +92,9 @@ export default function Navbar() {
           <li className="Navbar-toggle-item">
             <a href="/#HomeId">SERVICES</a>
           </li>
-          <li className="Navbar-toggle-item"><a href="/aboutus">ABOUT</a></li>
+          <li className="Navbar-toggle-item">
+            <a href="/aboutus">ABOUT</a>
+          </li>
 
           <li className="Navbar-toggle-item">
             <a href="#SitemapId">CONTACT</a>

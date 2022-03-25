@@ -2,7 +2,7 @@ import React from "react";
 //import ma from "../assets/svg/envelope-regular.svg";
 import wh from "../assets/svg/whatsapp.svg";
 import lo from "../assets/svg/location.svg";
-import mo from "../assets/svg/mobile.svg";
+// import mo from "../assets/svg/mobile.svg";
 import "./Sitemap.css";
 import ContactForm from "./ContactForm";
 

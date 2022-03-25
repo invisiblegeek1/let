@@ -6,7 +6,6 @@ import "./CarouselPage.css";
 import clousup from "../assets/images/close-up-hand-taking-notes.webp";
 import doctor from "../assets/images/doctor-with-stethoscope-hands-hospital-background.webp";
 
-
 export default function CarouselPage() {
   const imgList = [
     {
@@ -15,7 +14,7 @@ export default function CarouselPage() {
       text: "Welcome to Leelavathi Educational Trust",
     },
     {
-      img:doctor,
+      img: doctor,
       // img:medical,
       text: "Study hard until you can say, trust me, I’m your doctor",
     },
@@ -25,7 +24,7 @@ export default function CarouselPage() {
       text: "Welcome to Leelavathi Educational Trust",
     },
     {
-      img:doctor,
+      img: doctor,
       // img:medical,
       text: "A profession where knowledge, power and heart come together",
     },
@@ -46,7 +45,14 @@ export default function CarouselPage() {
             <img src={item.img} alt="" className="carosel-img" />
             <div className="Carosel-content">
               <p className="Carosel-text">{item.text}</p>
-              <a  href="https://firebasestorage.googleapis.com/v0/b/leelavathieducationaltrust.appspot.com/o/ENGINEERING%20and%20MEDICAL.pdf?alt=media&token=45bfe81c-8792-4228-bbfd-eb36771c8512" target="_blank" download rel="noreferrer"><button className="Carosel-read-more-btn">Brochure</button></a>
+              <a
+                href="https://firebasestorage.googleapis.com/v0/b/leelavathieducationaltrust.appspot.com/o/ENGINEERING%20and%20MEDICAL.pdf?alt=media&token=45bfe81c-8792-4228-bbfd-eb36771c8512"
+                target="_blank"
+                download
+                rel="noreferrer"
+              >
+                <button className="Carosel-read-more-btn">Brochure</button>
+              </a>
             </div>
           </div>
         );

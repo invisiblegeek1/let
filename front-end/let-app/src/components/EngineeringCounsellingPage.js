@@ -2,7 +2,7 @@ import React from "react";
 import Sitemap from "./Sitemap";
 import "./CounsellingPage.css";
 import arrow from "../assets/svg/shapes/arroe.svg";
-import bussines from "../assets/images/bussines-med.jpg"
+import bussines from "../assets/images/bussines-med.jpg";
 
 export default function EngineeringCounsellingPage() {
   const EnggCourse = [
@@ -26,11 +26,7 @@ export default function EngineeringCounsellingPage() {
   return (
     <div className="Con_page_container">
       <div className="Con_Img_Container">
-        <img
-          className="Con-image"
-          alt=""
-          src={bussines}
-        ></img>
+        <img className="Con-image" alt="" src={bussines}></img>
       </div>
       <div className="UG-con-container">
         <div className="Con-card-title">UG / PG Courses Offered</div>
