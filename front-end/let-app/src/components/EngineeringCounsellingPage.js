@@ -2,6 +2,7 @@ import React from "react";
 import Sitemap from "./Sitemap";
 import "./CounsellingPage.css";
 import arrow from "../assets/svg/shapes/arroe.svg";
+import bussines from "../assets/images/bussines-med.jpg"
 
 export default function EngineeringCounsellingPage() {
   const EnggCourse = [
@@ -28,7 +29,7 @@ export default function EngineeringCounsellingPage() {
         <img
           className="Con-image"
           alt=""
-          src="https://firebasestorage.googleapis.com/v0/b/leelavathieducationaltrust.appspot.com/o/carousel%20images%2Fbussines-med.jpg?alt=media&token=78d35997-8a17-435e-915d-1499629ec2bf"
+          src={bussines}
         ></img>
       </div>
       <div className="UG-con-container">

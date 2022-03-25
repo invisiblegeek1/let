@@ -3,26 +3,29 @@ import React from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
 import "./CarouselPage.css";
+import clousup from "../assets/images/close-up-hand-taking-notes.webp";
+import doctor from "../assets/images/doctor-with-stethoscope-hands-hospital-background.webp";
+
 
 export default function CarouselPage() {
   const imgList = [
     {
-      img: "https://firebasestorage.googleapis.com/v0/b/leelavathieducationaltrust.appspot.com/o/carousel%20images%2Fclose-up-hand-taking-notes.webp?alt=media&token=2c0dbc77-c3ae-46dd-9aff-22005c14d2e0",
+      img: clousup,
       // img:medical,
       text: "Welcome to Leelavathi Educational Trust",
     },
     {
-      img: "https://firebasestorage.googleapis.com/v0/b/leelavathieducationaltrust.appspot.com/o/carousel%20images%2Fdoctor-with-stethoscope-hands-hospital-background.webp?alt=media&token=21598627-0f33-46de-aaa1-b529776951ec",
+      img:doctor,
       // img:medical,
       text: "Study hard until you can say, trust me, I’m your doctor",
     },
     {
-      img: "https://firebasestorage.googleapis.com/v0/b/leelavathieducationaltrust.appspot.com/o/carousel%20images%2Fclose-up-hand-taking-notes.webp?alt=media&token=2c0dbc77-c3ae-46dd-9aff-22005c14d2e0",
+      img: clousup,
       // img:medical,
       text: "Welcome to Leelavathi Educational Trust",
     },
     {
-      img: "https://firebasestorage.googleapis.com/v0/b/leelavathieducationaltrust.appspot.com/o/carousel%20images%2Fdoctor-with-stethoscope-hands-hospital-background.webp?alt=media&token=21598627-0f33-46de-aaa1-b529776951ec",
+      img:doctor,
       // img:medical,
       text: "A profession where knowledge, power and heart come together",
     },
