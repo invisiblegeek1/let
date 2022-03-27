@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Navbar.css";
 import logo from "../assets/images/logo-leelavathi-education-trust.jpg";
-import logo2 from "../assets/images/Leelavathi Educational Trust text.png";
+import logo2 from "../assets/images/LEELAVATHIEDUCATIONAL & CHARITABLE TRUST.png";
 import wa from "../assets/svg/whatsapp-brands.svg";
 import ma from "../assets/svg/envelope-regular.svg";
 import mo from "../assets/svg/mobile-alt-solid.svg";
