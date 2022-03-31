@@ -19,8 +19,29 @@ export default function OtherCounsellingPage() {
       </div>
       <div className="UG-con-container">
         <div className="Con-card-title">UG / PG Courses Offered</div>
+
         <div className="Con-card" onClick={handleFormLink}>
-          <p>Arts and Management</p>
+          <p>BA, LLB</p>
+
+          <img src={arrow} className="arrow-icon" alt=""></img>
+        </div>
+        <div className="Con-card" onClick={handleFormLink}>
+          <p>BBA / MBA</p>
+
+          <img src={arrow} className="arrow-icon" alt=""></img>
+        </div>
+        <div className="Con-card" onClick={handleFormLink}>
+          <p>B.Com / M.Com</p>
+
+          <img src={arrow} className="arrow-icon" alt=""></img>
+        </div>
+        <div className="Con-card" onClick={handleFormLink}>
+          <p>B.Des (Interior Design)</p>
+
+          <img src={arrow} className="arrow-icon" alt=""></img>
+        </div>
+        <div className="Con-card" onClick={handleFormLink}>
+          <p>Hotel Management</p>
 
           <img src={arrow} className="arrow-icon" alt=""></img>
         </div>
