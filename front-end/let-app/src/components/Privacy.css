@@ -1,0 +1,44 @@
+.Priavcy_Container{
+    display: flex;
+    width: 100%;
+    height:auto;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+    
+
+}
+
+.Privacy_Title{
+
+    font-size: 25px;
+    font-weight: 5000;
+    font-style: bold;
+    margin: 5px;
+}
+
+.Priavcy_Wrapper{
+    display: flex;
+    width: 700px;
+    height: 100%;
+    
+    padding: 5px;
+    text-align: justify;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    color: #343333ed;
+    flex-flow: column;
+    line-height: 2;
+    margin: 5px;
+
+}
+
+
+@media screen and (max-width:640px) {
+    .Priavcy_Wrapper{
+        width: auto;
+        font-size: 16px;
+        padding: 5px;
+    }
+
+}

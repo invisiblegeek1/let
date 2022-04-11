@@ -9,7 +9,9 @@ import EngineeringCounsellingPage from "./components/EngineeringCounsellingPage"
 import OtherCounsellingPage from "./components/OtherCounsellingPage";
 import { MedicalCounsellingPage } from "./components/MedicalCounsellingPage";
 
+
 import { Routes, Route } from "react-router-dom";
+import Privacy from "./components/Privacy";
 
 
 export default function App() {
@@ -40,6 +42,11 @@ export default function App() {
           exact
           path="aboutus"
           element={<Aboutus />}
+        />
+        <Route
+          exact
+          path="privacy"
+          element={<Privacy />}
         />
       </Routes>
       <Whatsapp></Whatsapp>

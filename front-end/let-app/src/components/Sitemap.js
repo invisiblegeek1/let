@@ -26,6 +26,9 @@ export default function Sitemap() {
               <a href="/#SitemapId">CONTACT</a>
             </li>
             <li>
+              <a href="/privacy">PRIVACY POLICY</a>
+            </li>
+            <li>
               <a
                 href="https://firebasestorage.googleapis.com/v0/b/leelavathieducationaltrust.appspot.com/o/ENGINEERING%20and%20MEDICAL.pdf?alt=media&token=45bfe81c-8792-4228-bbfd-eb36771c8512"
                 target="_blank"

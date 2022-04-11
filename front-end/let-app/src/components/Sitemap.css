@@ -4,6 +4,7 @@
     height: fit-content;
     box-sizing: border-box;
     flex-direction: column;
+    margin: 5px;
 }
 .Sitemap-wrapper{
     display: flex;
@@ -67,7 +68,7 @@
     
 }
 
-@media screen and (max-width:640px){
+@media screen and (max-width:850px){
     .Sitemap-container{
         display: flex;
         width: 100%;
@@ -95,7 +96,7 @@
     }
     .Sitemap-navigation-link-container{
         display: flex;
-        height: 200px;
+        height: 250px;
     }
     .Sitemap-copy{
         
