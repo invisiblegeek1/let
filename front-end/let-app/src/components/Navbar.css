@@ -91,17 +91,17 @@
 
 }
 .Navbar-logo{
-    display: flex;
+    display: inline-block;
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    width: 70px;
+    width: 150px;
     height: 50px;
-    margin: 5px;
+    margin: 1px;
     padding: 0;
-    color: #1CAC5C;
-    font-size: 22px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    object-fit: cover;
+    
+    
 
 }
 .Navbar-logo2{

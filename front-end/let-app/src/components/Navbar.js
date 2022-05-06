@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Navbar.css";
-import logo from "../assets/images/logo-leelavathi-education-trust.jpg";
-import logo2 from "../assets/images/LEELAVATHIEDUCATIONAL & CHARITABLE TRUST.png";
+import logo from "../assets/images/Leelavathi Education Trust.jpeg";
+//import logo2 from "../assets/images/LEELAVATHIEDUCATIONAL & CHARITABLE TRUST.png";
 import wa from "../assets/svg/whatsapp-brands.svg";
 import ma from "../assets/svg/envelope-regular.svg";
 import mo from "../assets/svg/mobile-alt-solid.svg";
@@ -19,7 +19,7 @@ export default function Navbar() {
         <div className="Navbar-wrapper">
           <div className="Navbar-logo-container">
             <img className="Navbar-logo" alt="" src={logo}></img>
-            <img className="Navbar-logo2" alt="" src={logo2}></img>
+            {/* <img className="Navbar-logo2" alt="" src={logo2}></img> */}
           </div>
 
           <div className="Navbar-items-container">
