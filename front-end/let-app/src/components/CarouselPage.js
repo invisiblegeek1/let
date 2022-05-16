@@ -46,7 +46,7 @@ export default function CarouselPage() {
             <div className="Carosel-content">
               <p className="Carosel-text">{item.text}</p>
               <a
-                href="https://firebasestorage.googleapis.com/v0/b/leelavathieducationaltrust.appspot.com/o/ENGINEERING%20and%20MEDICAL.pdf?alt=media&token=45bfe81c-8792-4228-bbfd-eb36771c8512"
+                href="https://firebasestorage.googleapis.com/v0/b/leelavathieducationaltrust.appspot.com/o/Leelavathi%20Admission%20Guidance%20-%202022%20-%20small%20size.pdf?alt=media&token=97b9fa6b-cfc2-4015-80fc-56ab2f2aaee7"
                 target="_blank"
                 download
                 rel="noreferrer"
